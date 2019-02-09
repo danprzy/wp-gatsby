@@ -10,7 +10,7 @@ class PageTemplate extends Component {
 
     return (
       <div>
-        <h1 dangerouslySetInnerHTML={{ __html: currentPage.title }} />
+        {/* <h1 dangerouslySetInnerHTML={{ __html: currentPage.title }} /> */}
         <div dangerouslySetInnerHTML={{ __html: currentPage.content }} />
 
         <p dangerouslySetInnerHTML={{ __html: currentPage.date }} />
